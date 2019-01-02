@@ -17,6 +17,9 @@ namespace ExercicioR1.Entities
             this.Hours = hora;
         }
 
-
+        public double TotalValue()
+        {
+            return ValuePerHour * Hours;
+        }
     }
 }
